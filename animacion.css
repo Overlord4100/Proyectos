@@ -1,0 +1,133 @@
+html, body{
+    animation: moverpag 5s 6s;
+    
+}
+.panel{
+    position: relative;
+    width: 710px;
+    height: 320px;
+    animation: moverde 5s;
+    left: 25%;
+
+}
+.panel1{
+    position: relative;
+    width: 710px;
+    height: 213px;
+ 
+    animation: moverde 5s;
+    left: 25%;
+}
+.panel2{
+    position: relative;
+    width: 710px;
+    height: 237px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel3{
+    position: relative;
+    width: 710px;
+    height: 350px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel4{
+    position: relative;
+    width: 710px;
+    height: 255px;
+
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel5{
+    position: relative;
+    width: 710px;
+    height: 229px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel6{
+    position: relative;
+    width: 710px;
+    height: 229px;
+  
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel7{
+    position: relative;
+    width: 710px;
+    height: 350px;
+    
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel8{
+    position: relative;
+    width: 710px;
+    height: 221px;
+    
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel9{
+    position: relative;
+    width: 710px;
+    height: 256px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel10{
+    position: relative;
+    width: 710px;
+    height: 256px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+.panel11{
+    position: relative;
+    width: 710px;
+    height: 274px;
+    left: 25%;
+    animation: moveriz 5s ;
+}
+@keyframes moveriz {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(50%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes moverde {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-50%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes moverpag {
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-50%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
